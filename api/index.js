@@ -13,8 +13,5 @@ app.use(async (req, res, next) => {
 
 app.use("/api", userRoutes);
 
-app.get('/', (req, res) => {
-    res.send("Successful New Deploy");
-});
 
 module.exports = app;
